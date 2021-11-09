@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>String methods</title>
+        <meta name= "viewport" content="width=device-width; initial-scale=1.0">
+    </head>
+    <body>
+        <h1 id="tff"></h1>
+        <h2 id="tf1"></h2>
+        <h1 id="tf2"></h1>
+        <h2 id="tf3"></h2>
+        <h1 id="tf4"></h1>
+        <h2 id="tf5"></h2>
+        <script>
+            let str="Step by step solution by experts to help you in doubt clearance & scoring excellent marks in exams";
+            let str1="Since uniform current is flowing through a straight wire";
+            let sl=str.length;
+            document.getElementById("tff").innerHTML=sl;
+            let sx=str.slice(13,21);
+            document.getElementById("tf1").innerHTML=sx;
+            let sy=str.substring(13,21);
+            document.getElementById("tf2").innerHTML=sy;
+            let sz=str.substr(13,8);
+            document.getElementById("tf3").innerHTML=sz;
+            let sa=str.replace("solution","answer");
+            document.getElementById("tf4").innerHTML=sa;
+            let sb=str.concat(" "+str1);
+            document.getElementById("tf5").innerHTML=sb;
+        </script>
+
+    </body>
+</html>

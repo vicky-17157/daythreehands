@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Function learn</title>
+        <meta name= "viewport" content="width=device-width; initial-scale=1.0">
+    </head>
+    <body>
+        <div id="gt"></div>
+        <script>
+            const student={name:"Raju",rollno:103,mathsmark:85,sciencemark:80,englishmark:90,
+            studentdetails:function(){
+                let totalmarks= mathsmark+sciencemark+englishmark;
+                return this.rollno+" name is "+this.name+" has total marks of"this.totalmarks;
+            }
+        };
+        let studentdata=student.studentdetails();
+        document.getElementById("gt").innerHTML=studentdata;
+
+
+        </script>
+    </body>
+</html>

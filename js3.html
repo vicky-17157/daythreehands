@@ -1,0 +1,19 @@
+<!DOCTYPE html5>
+<html>
+    <head>
+        <title>Object methods</title>
+    </head>
+    <body>
+        <div id="td"></div>
+        <script>
+            const employee= {empid:1132, empname:"Rajan", desg:"Software Engineer",
+        empdetails: function(){
+            return this.empid+"Name is "+this.empname+" Role is "+this.desg;
+        }
+    };
+
+    let data=employee.empdetails();
+    document.getElementById("td").innerHTML=data;
+        </script>
+    </body>
+</html>

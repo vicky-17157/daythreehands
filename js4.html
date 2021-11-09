@@ -1,0 +1,19 @@
+<!DOCTYPE html5>
+<html>
+    <head>
+        <title>Event trigger</title>
+    </head>
+    <body>
+        <h1 id="dt"></h1>
+        <h1 id="dt1" onmouseover="domagic()">Hello world!</h1>
+        <button onclick="displaydatetime()">Click me for DateTime</button>
+        <script>
+            function displaydatetime(){
+                document.getElementById("dt").innerHTML=Date();
+            }
+            function domagic(){
+                document.getElementById("dt1").style.color="Red";
+            }
+        </script>
+    </body>
+</html>

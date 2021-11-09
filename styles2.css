@@ -1,0 +1,15 @@
+#rectangle{
+    width: 500;
+    height: 250;
+    background-image: linear-gradient(red,green);
+}
+#rect2{
+    width: 500;
+    height: 250;
+    background-image: radial-gradient(red,blue,aqua);
+}
+#rect3{
+    width: 500;
+    height: 250;
+    background-image: linear-gradient(bottom right, #00ff55, rgb(241, 137, 137));
+}
